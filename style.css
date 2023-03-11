@@ -1,0 +1,55 @@
+.body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    font-size: 12px;
+}
+
+.gridgridContainer {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.gridContainer {
+    display: grid;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 20px;
+    height: 500px;
+    width: 500px;
+}
+
+
+.sizeButtons {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+
+}
