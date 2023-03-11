@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Etch a Sketch</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="title" class="title">
+      <p>Rainbow Sketch</p>
+    </div>
+    <div id="buttonContainer" class="buttonContainer">
+        <button onclick="changeColor('black')" id="black" class="black">Black</button>
+        <button onclick="changeColor('rainbow')" id="rainbow" class="rainbow">Rainbow</button>
+        <button onclick="changeColor('white')" id="eraser" class="eraser">Eraser</button>
+        <button onclick="reset()" id="clear" class="clear">Clear</button>
+    </div>
+    <div class="gridgridContainer">
+      <div id="gridContainer" class="gridContainer"></div>
+    </div>
+    <div class="sizeButtons">
+      <button id="smallSize" class="small ">Small</button>
+      <button id="mediumSize" class="medium">Medium</button>
+      <button id="largeSize" class="large">Large</button>
+    </div>
+	<script src="index.js" defer></script>
+  </body>
+</html>
